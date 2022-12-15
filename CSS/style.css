@@ -8,19 +8,61 @@ body{
 }
 
 .main-content .col-4{
-    background-color: aqua;
-
+    background-color: #EAEAEA;
 }
-
-.user-menu .user-profile h1{
-    display: inline;
-}
-
-.user-menu .user-nav_buttons a{
-    text-decoration: none;
-}
-
 
 .main-content .col-8{
     background-color: chartreuse;
 }
+
+.user-menu,
+.active-contact{
+    background-color: #EAEAEA;
+}
+
+.user-menu .user-profile p,
+.active-contact .contact-profile p{
+    display: inline;
+}
+
+.user-menu .user-profile img,
+.active-contact .contact-profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.user-menu .user-nav-buttons a,
+.active-contact .contact-nav-buttons a{
+    text-decoration: none;
+    color: #B0B0B0;
+    margin: 0 .5rem;
+}
+
+
+.desktop-notifications{
+    background-color: #8EDAFC;
+} 
+
+.desktop-notifications i{
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    color: #8EDAFC;
+}
+
+.search-bar{
+    background-color: #EAEAEA;   
+}
+
+.search-bar .col-2{
+    background-color: #FFFFFF;
+}
+
+.search-bar button i{
+    color: #B0B0B0;
+}
+
+.search-bar .col{
+    background-color: #FFFFFF;
+}
+
