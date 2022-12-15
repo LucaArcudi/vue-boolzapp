@@ -1,0 +1,26 @@
+body{
+    background-color: bisque;
+}
+
+.main-content{
+    margin: 3vh 15vw;
+    height: 94vh;
+}
+
+.main-content .col-4{
+    background-color: aqua;
+
+}
+
+.user-menu .user-profile h1{
+    display: inline;
+}
+
+.user-menu .user-nav_buttons a{
+    text-decoration: none;
+}
+
+
+.main-content .col-8{
+    background-color: chartreuse;
+}
